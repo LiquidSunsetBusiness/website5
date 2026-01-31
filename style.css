@@ -1,0 +1,16 @@
+
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0f0f0f;color:#fff;line-height:1.7}
+.top{display:flex;justify-content:space-between;align-items:center;padding:20px}
+.logo{height:45px}
+nav a{color:#fff;margin-left:20px;text-decoration:none}
+.btn{background:#ff8c00;color:#000;padding:10px 18px;border-radius:6px;font-weight:bold;display:inline-block;margin-top:10px}
+.big{font-size:18px}
+.hero{padding:120px 20px;text-align:center;background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('images/liquid sunset business brokers.jpg') center/cover}
+.section{padding:80px 20px;max-width:1100px;margin:auto}
+.dark{background:#151515}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:#fff;color:#000;padding:20px;border-radius:12px;text-align:center}
+.card img{width:100%;border-radius:10px}
+.listing{display:flex;gap:25px;flex-wrap:wrap;align-items:center}
+.listing img{max-width:350px;border-radius:10px}
+footer{text-align:center;padding:20px;background:#000}

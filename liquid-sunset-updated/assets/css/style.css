@@ -1,0 +1,60 @@
+
+body {
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#020617;
+  color:#fff;
+}
+.hero {
+  background:url('../images/Buying-a-Business.jpg') center/cover no-repeat;
+  height:90vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.hero-overlay {
+  background:rgba(2,6,23,0.75);
+  padding:60px;
+  text-align:center;
+}
+.logo { width:160px; }
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:14px 28px;
+  background:#f97316;
+  color:#fff;
+  border-radius:6px;
+}
+.services {
+  padding:80px 20px;
+}
+.service-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+.service-card {
+  background:#0f172a;
+  padding:20px;
+  border-radius:10px;
+}
+.service-card img {
+  width:100%;
+  border-radius:8px;
+}
+.service-card a {
+  color:#f97316;
+  display:inline-block;
+  margin-top:10px;
+}
+.seo {
+  max-width:900px;
+  margin:auto;
+  padding:60px 20px;
+}
+footer {
+  background:#020617;
+  text-align:center;
+  padding:30px;
+}
